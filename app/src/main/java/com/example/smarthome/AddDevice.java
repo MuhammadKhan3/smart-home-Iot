@@ -8,8 +8,10 @@ import androidx.drawerlayout.widget.DrawerLayout;
 
 import android.os.Bundle;
 import android.view.MenuItem;
+import android.view.View;
 
 import com.google.android.material.dialog.MaterialAlertDialogBuilder;
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.android.material.navigation.NavigationView;
 
 public class AddDevice extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
@@ -40,18 +42,24 @@ public class AddDevice extends AppCompatActivity implements NavigationView.OnNav
             drawer.addDrawerListener(actionBarDrawerToggle);
             actionBarDrawerToggle.syncState();
             navigation.setNavigationItemSelectedListener(this);
-            addDevice();
+            floatButton();
         }catch (Exception e){
             System.out.println(e);
         }
     }
-    public  void addDevice(){
-        MaterialAlertDialogBuilder builder=new MaterialAlertDialogBuilder(AddDevice.this);
-        builder.setTitle("Hi");                // Add customization options here
-        builder.setTitle("yes");
-//        builder
-
+    public void floatButton(){
+        FloatingActionButton floatbtn=(FloatingActionButton) findViewById(R.id.floating_action_button);
+        floatbtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                MaterialAlertDialogBuilder builder=new MaterialAlertDialogBuilder(AddDevice.this);
+                builder.setTitle("Hi");                // Add customization options here
+                builder.setMessage("Getting a new phone or tablet is exciting. But, you’ll have to go through the long process of transferring your data, apps, and accounts over to the new device. When you add a device to your existing Google Play account, you can transfer apps, games, and even game progress.");
+                builder.show();
+            }
+        });
     }
+
 
     @Override
     public boolean onNavigationItemSelected(@NonNull MenuItem item) {
