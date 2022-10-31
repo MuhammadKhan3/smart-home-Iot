@@ -3,12 +3,16 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/muham/AndroidStudioProjects/smartHome/app/src/main/res/drawable-v24/lock.xml" value="0.1335" />
         <entry key="..\:/Users/muham/AndroidStudioProjects/smartHome/app/src/main/res/drawable/button.xml" value="0.1315" />
+        <entry key="..\:/Users/muham/AndroidStudioProjects/smartHome/app/src/main/res/drawable/contact.xml" value="0.1335" />
         <entry key="..\:/Users/muham/AndroidStudioProjects/smartHome/app/src/main/res/drawable/curveheader.xml" value="0.1335" />
+        <entry key="..\:/Users/muham/AndroidStudioProjects/smartHome/app/src/main/res/drawable/login.xml" value="0.234" />
         <entry key="..\:/Users/muham/AndroidStudioProjects/smartHome/app/src/main/res/drawable/logoround.xml" value="0.1325" />
         <entry key="..\:/Users/muham/AndroidStudioProjects/smartHome/app/src/main/res/drawable/text_corner.xml" value="0.1325" />
         <entry key="..\:/Users/muham/AndroidStudioProjects/smartHome/app/src/main/res/layout/activity_login.xml" value="0.12552083333333333" />
         <entry key="..\:/Users/muham/AndroidStudioProjects/smartHome/app/src/main/res/layout/activity_main.xml" value="0.12552083333333333" />
+        <entry key="..\:/Users/muham/AndroidStudioProjects/smartHome/app/src/main/res/layout/activity_signup.xml" value="0.26875" />
         <entry key="..\:/Users/muham/AndroidStudioProjects/smartHome/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1065" />
       </map>
     </option>

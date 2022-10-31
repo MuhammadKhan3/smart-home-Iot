@@ -4,22 +4,24 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 
-public class Login extends AppCompatActivity {
+public class signup extends AppCompatActivity {
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_login);
-        signupRoute();
+        setContentView(R.layout.activity_signup);
+        loginRoute();
     }
-    protected void signupRoute(){
-        Button signup =(Button) findViewById(R.id.signup);
+    protected void loginRoute(){
+        Button signup =(Button) findViewById(R.id.login);
         signup.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v){
-                Intent i= new Intent(Login.this,signup.class);
+                Intent i= new Intent(signup.this, Login.class);
                 startActivity(i); //start new activity
                 finish();
                 // Functionality for the button...

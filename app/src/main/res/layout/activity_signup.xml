@@ -10,7 +10,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Login"
+        android:text="Signup"
         android:textStyle="bold"
         android:textSize="50dp"
         android:textColor="@color/white"
@@ -74,6 +74,33 @@
 
     </com.google.android.material.textfield.TextInputLayout>
 
+    <com.google.android.material.textfield.TextInputLayout
+        app:boxCornerRadiusTopStart="30dp"
+        app:boxCornerRadiusTopEnd="30dp"
+        app:boxCornerRadiusBottomEnd="30dp"
+        app:boxCornerRadiusBottomStart="30dp"
+        android:id="@+id/confirmpassword"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="50dp"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        app:startIconDrawable="@drawable/lock"
+        android:hint="@string/confirmPassword"
+        app:startIconTint="@color/lightBlue"
+        app:boxStrokeColor="@color/lightBlue"
+        android:textColor="@color/lightBlue"
+        android:textColorHint="@color/lightBlue"
+        app:hintTextColor="@color/lightBlue"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/lightBlue"
+            android:textSize="20dp" />
+
+    </com.google.android.material.textfield.TextInputLayout>
     <Button
 
         android:id="@+id/textButton"
@@ -81,7 +108,7 @@
         app:cornerRadius="20dp"
         android:textSize="20dp"
         android:layout_height="wrap_content"
-        android:text="Login"
+        android:text="Signup"
         android:backgroundTint="@color/lightBlue"
         android:layout_marginTop="10dp"
         android:textColor="@color/white"
@@ -90,17 +117,17 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Don't Have A Account?"
-        android:layout_marginLeft="100dp"
+        android:text="Have A Account?"
+        android:layout_marginLeft="130dp"
         android:textSize="18dp"
         android:textStyle="bold"
         android:layout_marginTop="100dp"
         />
     <Button
+        android:id="@+id/login"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Sign Up!"
-        android:id="@+id/signup"
+        android:text="Login!"
         android:textStyle="bold"
         android:layout_marginLeft="150dp"
         android:textSize="20dp"
