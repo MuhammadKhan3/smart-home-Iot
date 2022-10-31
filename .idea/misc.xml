@@ -4,15 +4,26 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/muham/AndroidStudioProjects/smartHome/app/src/main/res/drawable-v24/lock.xml" value="0.1335" />
+        <entry key="..\:/Users/muham/AndroidStudioProjects/smartHome/app/src/main/res/drawable/adddevice.xml" value="0.136" />
+        <entry key="..\:/Users/muham/AndroidStudioProjects/smartHome/app/src/main/res/drawable/bottombar.xml" value="0.1365" />
         <entry key="..\:/Users/muham/AndroidStudioProjects/smartHome/app/src/main/res/drawable/button.xml" value="0.1315" />
         <entry key="..\:/Users/muham/AndroidStudioProjects/smartHome/app/src/main/res/drawable/contact.xml" value="0.1335" />
         <entry key="..\:/Users/muham/AndroidStudioProjects/smartHome/app/src/main/res/drawable/curveheader.xml" value="0.1335" />
+        <entry key="..\:/Users/muham/AndroidStudioProjects/smartHome/app/src/main/res/drawable/ic_baseline_home_24.xml" value="0.1875" />
         <entry key="..\:/Users/muham/AndroidStudioProjects/smartHome/app/src/main/res/drawable/login.xml" value="0.234" />
         <entry key="..\:/Users/muham/AndroidStudioProjects/smartHome/app/src/main/res/drawable/logoround.xml" value="0.1325" />
+        <entry key="..\:/Users/muham/AndroidStudioProjects/smartHome/app/src/main/res/drawable/menu.xml" value="0.1875" />
         <entry key="..\:/Users/muham/AndroidStudioProjects/smartHome/app/src/main/res/drawable/text_corner.xml" value="0.1325" />
+        <entry key="..\:/Users/muham/AndroidStudioProjects/smartHome/app/src/main/res/layout/activity_add_device.xml" value="0.12" />
         <entry key="..\:/Users/muham/AndroidStudioProjects/smartHome/app/src/main/res/layout/activity_login.xml" value="0.12552083333333333" />
         <entry key="..\:/Users/muham/AndroidStudioProjects/smartHome/app/src/main/res/layout/activity_main.xml" value="0.12552083333333333" />
+        <entry key="..\:/Users/muham/AndroidStudioProjects/smartHome/app/src/main/res/layout/activity_menu.xml" value="0.12708333333333333" />
+        <entry key="..\:/Users/muham/AndroidStudioProjects/smartHome/app/src/main/res/layout/activity_navigation_head.xml" value="0.17916666666666667" />
+        <entry key="..\:/Users/muham/AndroidStudioProjects/smartHome/app/src/main/res/layout/activity_sidemenu.xml" value="0.12708333333333333" />
         <entry key="..\:/Users/muham/AndroidStudioProjects/smartHome/app/src/main/res/layout/activity_signup.xml" value="0.26875" />
+        <entry key="..\:/Users/muham/AndroidStudioProjects/smartHome/app/src/main/res/menu/header_navigation.xml" value="0.178125" />
+        <entry key="..\:/Users/muham/AndroidStudioProjects/smartHome/app/src/main/res/menu/menu_xml.xml" value="0.2" />
+        <entry key="..\:/Users/muham/AndroidStudioProjects/smartHome/app/src/main/res/menu/navigation_drawer.xml" value="0.178125" />
         <entry key="..\:/Users/muham/AndroidStudioProjects/smartHome/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1065" />
       </map>
     </option>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+    <group
+        android:id="@+id/group1"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/item1"
+            android:icon="@drawable/lock"
+            android:title="@string/home"
+            android:checked="true" />
+        <item
+            android:id="@+id/item2"
+            android:icon="@drawable/adddevice"
+            android:title="@string/device" />
+        <item
+            android:id="@+id/item3"
+            android:icon="@drawable/ic_baseline_login_24"
+            android:title="@string/logout" />
+    </group>
+
+</menu>

@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/help"
+        android:title="Help"
+        android:contentDescription="Help icon"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/logout"
+        android:title="Logout"
+        android:contentDescription="Logout the system"
+        app:showAsAction="never" />
+
+</menu>
