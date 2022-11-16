@@ -28,7 +28,7 @@
         android:layout_width="350dp"
         android:layout_height="wrap_content"
         app:startIconDrawable="@drawable/contact"
-        android:hint="@string/name"
+        android:hint="@string/email"
 
         app:hintTextColor="@color/lightBlue"
         app:startIconTint="@color/lightBlue"
@@ -41,6 +41,7 @@
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:id="@+id/email_text"
             android:textColor="@color/lightBlue"
             android:textSize="20dp" />
 
@@ -69,6 +70,8 @@
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:id="@id/password_text"
             android:textColor="@color/lightBlue"
             android:textSize="20dp" />
 
@@ -76,7 +79,7 @@
 
     <Button
 
-        android:id="@+id/textButton"
+        android:id="@+id/login"
         android:layout_width="130dp"
         app:cornerRadius="20dp"
         android:textSize="20dp"

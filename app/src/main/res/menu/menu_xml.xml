@@ -10,7 +10,7 @@
     <item
         android:id="@+id/logout"
         android:title="Logout"
-        android:contentDescription="Logout the system"
+        android:contentDescription="@string/logout"
         app:showAsAction="never" />
 
 </menu>

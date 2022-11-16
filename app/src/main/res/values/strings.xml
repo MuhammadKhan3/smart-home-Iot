@@ -6,7 +6,10 @@
     <string name="home">Home</string>
     <string name="device">Add Device</string>
     <string name="logout">Logout</string>
+    <string name="email">Email</string>
+
     <string name="openNavDrawer">Navigation Open Drawer</string>
     <string name="closeNavDrawer">Navigation Close Drawer</string>
+<!--    <string name="logout">Logout the system</string>-->
 
 </resources>

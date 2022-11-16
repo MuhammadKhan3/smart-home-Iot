@@ -22,13 +22,13 @@
         app:boxCornerRadiusTopEnd="30dp"
         app:boxCornerRadiusBottomEnd="30dp"
         app:boxCornerRadiusBottomStart="30dp"
-        android:id="@+id/name"
+        android:id="@+id/email"
         android:layout_marginTop="100dp"
         android:layout_marginLeft="50dp"
         android:layout_width="350dp"
         android:layout_height="wrap_content"
         app:startIconDrawable="@drawable/contact"
-        android:hint="@string/name"
+        android:hint="@string/email"
 
         app:hintTextColor="@color/lightBlue"
         app:startIconTint="@color/lightBlue"
@@ -42,6 +42,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textColor="@color/lightBlue"
+            android:id="@+id/email_text"
             android:textSize="20dp" />
 
     </com.google.android.material.textfield.TextInputLayout>
@@ -58,6 +59,7 @@
         android:layout_height="wrap_content"
         app:startIconDrawable="@drawable/lock"
         android:hint="@string/password"
+        android:inputType="textPassword"
         app:startIconTint="@color/lightBlue"
         app:boxStrokeColor="@color/lightBlue"
         android:textColor="@color/lightBlue"
@@ -68,6 +70,8 @@
 
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
+            android:id="@+id/password_text"
+            android:inputType="textPassword"
             android:layout_height="wrap_content"
             android:textColor="@color/lightBlue"
             android:textSize="20dp" />
@@ -80,6 +84,7 @@
         app:boxCornerRadiusBottomEnd="30dp"
         app:boxCornerRadiusBottomStart="30dp"
         android:id="@+id/confirmpassword"
+        android:inputType="textPassword"
         android:layout_marginTop="20dp"
         android:layout_marginLeft="50dp"
         android:layout_width="350dp"
@@ -97,13 +102,15 @@
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:id="@+id/confirmPassword_text"
             android:textColor="@color/lightBlue"
             android:textSize="20dp" />
 
     </com.google.android.material.textfield.TextInputLayout>
     <Button
 
-        android:id="@+id/textButton"
+        android:id="@+id/signup"
         android:layout_width="130dp"
         app:cornerRadius="20dp"
         android:textSize="20dp"
