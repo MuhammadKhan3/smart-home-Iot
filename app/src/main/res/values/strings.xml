@@ -8,6 +8,9 @@
     <string name="logout">Logout</string>
     <string name="email">Email</string>
 
+    <string name="action_1">Email</string>
+    <string name="action_2">Email</string>
+
     <string name="openNavDrawer">Navigation Open Drawer</string>
     <string name="closeNavDrawer">Navigation Close Drawer</string>
 <!--    <string name="logout">Logout the system</string>-->
